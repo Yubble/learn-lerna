@@ -1,17 +1,14 @@
 {
-  "name": "module-1",
-  "version": "0.0.2",
+  "name": "module-2",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cross-env": "^7.0.3",
-    "react": "^17.0.2"
-  },
-  "gitHead": "928f0a2a3307659cdb73ac1e5ee289a2976cd947"
+    "cross-env": "^7.0.3"
+  }
 }
