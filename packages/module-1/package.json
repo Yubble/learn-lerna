@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "cross-env": "^7.0.3",
+    "module-2": "^1.0.0",
     "react": "^17.0.2"
   },
   "gitHead": "928f0a2a3307659cdb73ac1e5ee289a2976cd947"
