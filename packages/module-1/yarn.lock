@@ -2,6 +2,28 @@
 # yarn lockfile v1
 
 
+"await-event@^2.1.0":
+  "integrity" "sha1-eOn5JoS65AIvn6C18xShFVD5qnY="
+  "resolved" "https://registry.npmjs.org/await-event/-/await-event-2.1.0.tgz"
+  "version" "2.1.0"
+
+"await-first@^1.0.0":
+  "integrity" "sha512-SK20HicVu6lXvNM0nS1flurrs4/1NdhvccvEn52Gf+vpERZnnkKBnJvAQDsYkzJnsHs1bRNNKEiobEet7a/0TA=="
+  "resolved" "https://registry.npmjs.org/await-first/-/await-first-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "ee-first" "^1.1.1"
+
+"co@^4.6.0":
+  "integrity" "sha1-bqa989hTrlTMuOR7+gvz+QMfsYQ="
+  "resolved" "https://registry.npmjs.org/co/-/co-4.6.0.tgz"
+  "version" "4.6.0"
+
+"core-util-is@^1.0.2":
+  "integrity" "sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ=="
+  "resolved" "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz"
+  "version" "1.0.3"
+
 "cross-env@^7.0.3":
   "integrity" "sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw=="
   "resolved" "https://registry.npmjs.org/cross-env/-/cross-env-7.0.3.tgz"
@@ -18,10 +40,34 @@
     "shebang-command" "^2.0.0"
     "which" "^2.0.1"
 
+"ee-first@^1.1.1":
+  "integrity" "sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0="
+  "resolved" "https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz"
+  "version" "1.1.1"
+
+"is-class-hotfix@~0.0.6":
+  "integrity" "sha512-0n+pzCC6ICtVr/WXnN2f03TK/3BfXY7me4cjCAqT8TYXEl0+JBRoqBo94JJHXcyDSLUeWbNX8Fvy5g5RJdAstQ=="
+  "resolved" "https://registry.npmjs.org/is-class-hotfix/-/is-class-hotfix-0.0.6.tgz"
+  "version" "0.0.6"
+
+"is-type-of@^1.2.1":
+  "integrity" "sha512-uK0kyX9LZYhSDS7H2sVJQJop1UnWPWmo5RvR3q2kFH6AUHYs7sOrVg0b4nyBHw29kRRNFofYN/JbHZDlHiItTA=="
+  "resolved" "https://registry.npmjs.org/is-type-of/-/is-type-of-1.2.1.tgz"
+  "version" "1.2.1"
+  dependencies:
+    "core-util-is" "^1.0.2"
+    "is-class-hotfix" "~0.0.6"
+    "isstream" "~0.1.2"
+
 "isexe@^2.0.0":
   "integrity" "sha1-6PvzdNxVb/iUehDcsFctYz8s+hA="
   "resolved" "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz"
   "version" "2.0.0"
+
+"isstream@~0.1.2":
+  "integrity" "sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo="
+  "resolved" "https://registry.npmjs.org/isstream/-/isstream-0.1.2.tgz"
+  "version" "0.1.2"
 
 "js-tokens@^3.0.0 || ^4.0.0":
   "integrity" "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ=="
@@ -52,6 +98,16 @@
   dependencies:
     "loose-envify" "^1.1.0"
     "object-assign" "^4.1.1"
+
+"sdk-base@^3.6.0":
+  "integrity" "sha512-jxHUIrRLlAoRFRwiXKhOGjd6BeFWO/jz7tv+E7lbMSef6F9jzFN2Sv3hLW58oDDKscKaBGG6vQdkbXn7isE7fw=="
+  "resolved" "https://registry.npmjs.org/sdk-base/-/sdk-base-3.6.0.tgz"
+  "version" "3.6.0"
+  dependencies:
+    "await-event" "^2.1.0"
+    "await-first" "^1.0.0"
+    "co" "^4.6.0"
+    "is-type-of" "^1.2.1"
 
 "shebang-command@^2.0.0":
   "integrity" "sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA=="
