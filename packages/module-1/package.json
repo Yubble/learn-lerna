@@ -1,6 +1,6 @@
 {
   "name": "module-1",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "cross-env": "^7.0.3",
-    "module-2": "^0.0.4",
+    "module-2": "^0.0.5",
     "react": "^17.0.2"
   },
   "gitHead": "7d7d9a7eaca875092a908cb6c28611d6e82dd24c"
